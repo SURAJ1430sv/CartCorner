@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.imgs-div1 img{
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+
+}
+.imgs-div1{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+@media screen and (max-width:600px) {
+  .imgs-div1{
+    overflow-x: auto;
+  }
+  
+}
+@media screen and (min-width:601px) and (max-width:900px) {
+  .imgs-div1{
+    overflow-x: auto;
+  }
+  
+}
